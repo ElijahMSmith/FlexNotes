@@ -1,0 +1,18 @@
+- Load any PDF document and have it displayed on one side of the screen
+- Display an empty canvas on the other side of the screen, unless it's already been drawn on
+- Must support landscape and portrait documents
+    - Canvas should be able to be flipped portrait or landscape, regardless of the orientation of the document
+    - If try to flip when canvas already has content, then canvas must be cleared first
+- Should be either able to display side by side or one on top of the other (toggle option)
+- Choose the tool for interacting with the canvas
+    - Drawing tool: free-form lines that are each considered their own object.
+    - Shape tool: create a basic shape and stretch it to your proportions (each shape considered its own object)
+    - Text tool: A block of text that wraps in its text box. Each text box is considered its own object.
+    - Pointer tool: Select an object, drag a selected object to a new position, deselect an object by clicking away
+    - Select tool: Draw a box and select any object that has any part of its dimensions in the box
+    - Grouper tool: Make every selected object into one big object
+    - Eraser tool: For early version only, removes any pixels in the circle from the canvas. Once this starts using objects for the canvas content this is unnecessary and will be replaced by the deletion button/key.
+- In the initial prototype, just being able to draw and write and erase on the canvas should be plenty good. In future versions the canvas system can be expanded.
+- Undo button and redo button
+- Auto-saves every once in a while
+- Save button and save-as button
