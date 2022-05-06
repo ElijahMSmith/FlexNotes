@@ -1,5 +1,6 @@
 - Load any PDF document and have it displayed on one side of the screen
 - Display an empty canvas on the other side of the screen, unless it's already been drawn on
+    - Need to support multiple canvases per pdf page that can be moved between
 - Must support landscape and portrait documents
     - Canvas should be able to be flipped portrait or landscape, regardless of the orientation of the document
     - If try to flip when canvas already has content, then canvas must be cleared first

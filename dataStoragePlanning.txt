@@ -1,0 +1,7 @@
+Start with just being able to draw on canvas, then add other features like erasing, shapes, text, and selection, and moving
+
+Store each page individually and just load up the page you currently need
+Load up the other canvases on the same page as well
+
+Easiest storage: 2D array of all the pixels on the screen
+However it works it needs to re-size with the window or have a scroll bar
